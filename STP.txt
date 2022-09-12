@@ -1,0 +1,22 @@
+問１
+ブリッジプライオリティが最も小さいswitch3がルートブリッジに。
+
+問２
+ルートポート
+switch1 f0/2
+switch2 f0/1 ルートパスコスト　119　200
+switch4 e0/2
+
+指定ポート
+switch1 f0/1
+switch2 
+switch3 e0/1 e0/2
+switch4 e0/1
+
+switch2 20481
+switch4 8193
+ブリッジプライオリティにより
+switch4 e0/1が指定ポートに。
+
+ブロッキングポート
+switch2 f0/2
